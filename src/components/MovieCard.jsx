@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 function MovieCard({ movie }) {
   const image =
     movie.image?.medium ||
@@ -75,12 +77,12 @@ function MovieCard({ movie }) {
         </p>
 
         {/* Details Button */}
-        <button
-          type="button"
-          className="mt-5 w-full rounded-xl bg-orange-500 px-4 py-3 text-sm font-semibold text-white transition hover:bg-orange-600 hover:shadow-lg hover:shadow-orange-500/20 active:scale-[0.98]"
-        >
-          See Details
-        </button>
+        <Link
+  to={`/movies/${movie.id}`}
+  className="mt-4 block w-full rounded-lg bg-orange-500 px-3 py-2.5 text-center text-sm font-semibold text-white transition hover:bg-orange-600"
+>
+  See Details
+</Link>
       </div>
     </article>
   );
