@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 const Layout = () => {
     return (
-        <div>
+        <div className="min-h-screen bg-slate-950">
             <Navbar />
             <main>
                 <Outlet />
