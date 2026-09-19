@@ -1,34 +1,34 @@
+
 import { Link } from "react-router";
 
 function Home() {
   return (
     <section className="relative min-h-[calc(100vh-64px)] overflow-hidden bg-slate-950 text-white">
-      
+      {/* Background Effects */}
       <div className="absolute -left-32 top-20 h-72 w-72 rounded-full bg-orange-500/20 blur-3xl" />
-
       <div className="absolute -right-32 bottom-10 h-96 w-96 rounded-full bg-purple-600/20 blur-3xl" />
 
       <div className="relative mx-auto grid min-h-[calc(100vh-64px)] max-w-7xl items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8">
-        
         {/* Hero Content */}
         <div>
           <span className="mb-5 inline-flex rounded-full border border-orange-500/20 bg-orange-500/10 px-4 py-2 text-sm font-medium text-orange-400">
-            🎬 Your Movie Discovery Platform
+            🎬 Movie & TV Show Explorer
           </span>
 
           <h1 className="max-w-3xl text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            Discover Your Next
+            Discover Something
             <span className="block text-orange-500">
-              Favorite Movie
+              Worth Watching
             </span>
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-7 text-gray-400 sm:text-lg">
-            Explore thousands of movies and TV shows, discover new
-            favorites, and get detailed information about the titles
-            you want to watch.
+            Explore movies and TV shows, search for your favorite
+            titles, check ratings, discover genres, and view detailed
+            information all in one place.
           </p>
 
+          {/* CTA Buttons */}
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
               to="/movies"
@@ -45,29 +45,41 @@ function Home() {
             </Link>
           </div>
 
-          <div className="mt-10 flex flex-wrap gap-8 border-t border-white/10 pt-7">
+          {/* Features */}
+          <div className="mt-10 grid max-w-xl grid-cols-1 gap-4 border-t border-white/10 pt-7 sm:grid-cols-3">
             <div>
-              <p className="text-2xl font-bold text-white">10K+</p>
-              <p className="text-sm text-gray-500">Titles</p>
+              <p className="text-lg font-bold text-white">
+                🔎 Search
+              </p>
+              <p className="mt-1 text-sm text-gray-500">
+                Find your favorite titles
+              </p>
             </div>
 
             <div>
-              <p className="text-2xl font-bold text-white">24/7</p>
-              <p className="text-sm text-gray-500">Discovery</p>
+              <p className="text-lg font-bold text-white">
+                ⭐ Ratings
+              </p>
+              <p className="mt-1 text-sm text-gray-500">
+                Check show ratings
+              </p>
             </div>
 
             <div>
-              <p className="text-2xl font-bold text-white">Free</p>
-              <p className="text-sm text-gray-500">To Explore</p>
+              <p className="text-lg font-bold text-white">
+                📋 Details
+              </p>
+              <p className="mt-1 text-sm text-gray-500">
+                Explore complete info
+              </p>
             </div>
           </div>
         </div>
 
+        {/* Hero Visual */}
         <div className="relative mx-auto hidden w-full max-w-md lg:block">
-          
           <div className="absolute inset-0 rounded-3xl bg-orange-500/20 blur-3xl" />
 
-          {/* Main Card */}
           <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-4 shadow-2xl backdrop-blur-xl">
             <div className="flex aspect-[3/4] items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 via-red-500 to-purple-700">
               <div className="text-center">
@@ -83,17 +95,18 @@ function Home() {
               </div>
             </div>
 
+            {/* Floating Info Card */}
             <div className="absolute bottom-8 left-8 right-8 rounded-2xl border border-white/10 bg-slate-950/80 p-4 backdrop-blur-xl">
               <p className="text-xs uppercase tracking-widest text-orange-400">
-                Featured
+                Explore
               </p>
 
               <h3 className="mt-1 text-lg font-bold">
-                Find something worth watching.
+                Find your next favorite.
               </h3>
 
               <p className="mt-1 text-sm text-gray-400">
-                Search. Discover. Enjoy.
+                Search. Discover. Explore.
               </p>
             </div>
           </div>
