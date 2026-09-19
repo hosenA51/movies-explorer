@@ -6,16 +6,6 @@ Movie Explorer allows users to browse available shows, search for specific title
 
 ---
 
-## 🌐 Live Demo
-
-🔗 **Live Website:** [Add your Netlify/Vercel live link here]
-
-## 📦 GitHub Repository
-
-🔗 **GitHub:** [Add your GitHub repository link here]
-
----
-
 ## ✨ Features
 
 ### 🏠 Home Page
@@ -226,62 +216,6 @@ after deployment.
 
 ---
 
-## 🎯 Assignment Requirements Covered
-
-The project implements the main requirements of the Movie Explorer assignment:
-
-* ✅ React-based application
-* ✅ Responsive Home Page
-* ✅ Application logo/brand
-* ✅ Navigation links
-* ✅ Movie listing page
-* ✅ Search by movie/show title
-* ✅ TVMaze API integration
-* ✅ Reusable movie cards
-* ✅ Poster images
-* ✅ Movie/show title
-* ✅ Release year/date
-* ✅ Rating
-* ✅ See Details functionality
-* ✅ Responsive grid layout
-* ✅ Loading state
-* ✅ Error handling
-* ✅ Responsive design
-* ✅ Public GitHub repository
-* ✅ Live deployment
-
----
-
-## 📸 Screenshots
-
-Add screenshots of your project here after deployment.
-
-### Home Page
-
-```text
-[ Add Home Page Screenshot ]
-```
-
-### Movie Listing
-
-```text
-[ Add Movie Listing Screenshot ]
-```
-
-### Movie Details
-
-```text
-[ Add Movie Details Screenshot ]
-```
-
-### Mobile View
-
-```text
-[ Add Mobile Screenshot ]
-```
-
----
-
 ## 👨‍💻 Author
 
 **Hosen Ahmed**
@@ -295,13 +229,3 @@ Frontend Developer & Aspiring Full-Stack AI Integration Developer
 This project was created for educational and assignment purposes.
 
 Movie and TV show data are provided by the **TVMaze API**.
-
----
-
-## 🙏 Acknowledgements
-
-* [TVMaze](https://www.tvmaze.com/) — API and show data
-* React — Frontend library
-* React Router — Client-side routing
-* Tailwind CSS — Styling
-* Vite — Development and build tooling
